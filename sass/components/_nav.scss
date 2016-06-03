@@ -1,0 +1,111 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  height: 80px;
+  text-align: center;
+
+  color: rgb(242, 242, 242);;
+  padding: 0;
+  // border: 1px solid black;
+}
+
+nav h1, h4 {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.masthead {
+  height: 80px;
+  padding: 0px;
+  color: rgb(242, 242, 242);;
+  background: rgb(50, 50, 50);
+}
+
+.byline {
+  font-style: italic;
+}
+
+.nav-buttons {
+  padding: 0px;
+}
+
+.nav-resume {
+  background-color: #9010e2;
+  font-size: 1.3em;
+  padding-top: 50px;
+  transition: background-color 0.5s ease;
+}
+
+.nav-resume:hover {
+  color: #9010e2;
+  background: white;
+  font-weight: bold;
+}
+
+.nav-home {
+  background-color:#f17105;
+  font-size: 1.3em;
+  padding-top: 50px;
+  transition: background-color 0.5s ease;
+}
+
+.nav-home:hover {
+  color: #f17105;
+  background: white;
+  font-weight: bold;
+}
+
+.nav-follow {
+  background-color: #e6c229;
+  font-size: 1.3em;
+  padding-top: 50px;
+  transition: background-color 0.5s ease;
+}
+
+.nav-follow:hover {
+  color: #e6c229;
+  background: white;
+  font-weight: bold;
+}
+
+.nav-about {
+  background-color: #d11149;
+  font-size: 1.3em;
+  padding-top: 50px;
+  transition: background-color 0.5s ease;
+}
+
+.nav-about:hover {
+  color: #d11149;
+  background: white;
+  font-weight: bold;
+}
+
+.nav-projects {
+  background-color: #1a8fe3;
+  font-size: 1.3em;
+  padding-top: 50px;
+  transition: background-color 0.5s ease;
+}
+
+.nav-projects:hover {
+  color: #1a8fe3;
+  background: white;
+  font-weight: bold;
+}
+
+.nav-contact {
+  background-color: #2ECC71;
+  font-size: 1.3em;
+  padding-top: 50px;
+  transition: background-color 0.5s ease;
+}
+
+.nav-contact:hover {
+  color: #2ECC71;
+  background: white;
+  font-weight: bold;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+  <meta charset="UTF-8">
+
+  <!-- jQuery, because Boostrap gets cranky -->
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+  <!-- Angular and whatnot -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="https://angular-ui.github.io/ui-router/release/angular-ui-router.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.js"></script>
+
+  <!-- Scripts -->
+  <script src="/app/app.module.js"></script>
+
+  <!-- Stylesheets -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/style.css">
+
+  <title>J Lincoln Dennis</title>
+  <base href="/">
+</head>
+<body>
+  <div class="container">
+    <nav class="row">
+
+  <div class="masthead col-md-5">
+    <h1>J Lincoln Dennis</h1>
+    <h4 class="byline">Web Developer, Writer, Meme Enthusiast</h4>
+  </div>
+<div class="col-md-7 nav-buttons">
+
+  <ul>
+    <a ui-sref="home"><li class="col-xs-4 col-sm-2 nav-home">Home</li></a>
+    <a ui-sref="about"><li class="col-xs-4 col-sm-2 nav-about">About</li></a>
+    <a ui-sref="resume"><li class="col-xs-4 col-sm-2 nav-resume">Resume</li></a>
+    <a ui-sref="projects"><li class="col-xs-4 col-sm-2 nav-projects">Projects</li></a>
+    <a ui-sref="contact"><li class="col-xs-4 col-sm-2 nav-contact">Contact</li></a>
+    <a ui-sref="follow"><li class="col-xs-4 col-sm-2 nav-follow">Follow</li></a>
+  </ul>
+</div>
+</nav>
+
+  <main>
+    <ui-view></ui-view>
+  </main>
+
+</div>
+</body>
+</html>

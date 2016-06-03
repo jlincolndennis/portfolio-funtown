@@ -1,0 +1,125 @@
+ul {
+  list-style: none;
+  padding: 0; }
+
+li {
+  height: 80px;
+  text-align: center;
+  color: #f2f2f2;
+  padding: 0; }
+
+nav h1, h4 {
+  margin-top: 5px;
+  text-align: center; }
+
+.masthead {
+  height: 80px;
+  padding: 0px;
+  color: #f2f2f2;
+  background: #323232; }
+
+.byline {
+  font-style: italic; }
+
+.nav-buttons {
+  padding: 0px; }
+
+.nav-resume {
+  background-color: #9010e2;
+  font-size: 1.3em;
+  padding-top: 50px;
+  transition: background-color 0.5s ease; }
+
+.nav-resume:hover {
+  color: #9010e2;
+  background: white;
+  font-weight: bold; }
+
+.nav-home {
+  background-color: #f17105;
+  font-size: 1.3em;
+  padding-top: 50px;
+  transition: background-color 0.5s ease; }
+
+.nav-home:hover {
+  color: #f17105;
+  background: white;
+  font-weight: bold; }
+
+.nav-follow {
+  background-color: #e6c229;
+  font-size: 1.3em;
+  padding-top: 50px;
+  transition: background-color 0.5s ease; }
+
+.nav-follow:hover {
+  color: #e6c229;
+  background: white;
+  font-weight: bold; }
+
+.nav-about {
+  background-color: #d11149;
+  font-size: 1.3em;
+  padding-top: 50px;
+  transition: background-color 0.5s ease; }
+
+.nav-about:hover {
+  color: #d11149;
+  background: white;
+  font-weight: bold; }
+
+.nav-projects {
+  background-color: #1a8fe3;
+  font-size: 1.3em;
+  padding-top: 50px;
+  transition: background-color 0.5s ease; }
+
+.nav-projects:hover {
+  color: #1a8fe3;
+  background: white;
+  font-weight: bold; }
+
+.nav-contact {
+  background-color: #2ECC71;
+  font-size: 1.3em;
+  padding-top: 50px;
+  transition: background-color 0.5s ease; }
+
+.nav-contact:hover {
+  color: #2ECC71;
+  background: white;
+  font-weight: bold; }
+
+body {
+  background: #323232; }
+
+main {
+  background-color: white;
+  margin-top: 50px;
+  padding: 25px;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+.container {
+  height: 1000px; }
+
+* {
+  font-family: 'Raleway', sans-serif; }
+
+.home h1 {
+  color: #f17105; }
+
+.about h1 {
+  color: #d11149; }
+
+.resume h1 {
+  color: #9010e2; }
+
+.projects h1 {
+  color: #1a8fe3; }
+
+.contact h1 {
+  color: #2ECC71; }
+
+.follow h1 {
+  color: #e6c229; }
