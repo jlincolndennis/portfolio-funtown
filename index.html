@@ -2,6 +2,7 @@
 <html ng-app="app">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
 
   <!-- jQuery, because Boostrap gets cranky -->
   <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
@@ -32,17 +33,17 @@
 
   <div class="masthead col-md-5">
     <h1>J Lincoln Dennis</h1>
-    <h4 class="byline">Web Developer, Writer, Meme Enthusiast</h4>
+    <h4 class="byline">web developer, writer, meme enthusiast</h4>
   </div>
 <div class="col-md-7 nav-buttons">
 
   <ul>
-    <a ui-sref="home"><li class="col-xs-4 col-sm-2 nav-home">Home</li></a>
-    <a ui-sref="about"><li class="col-xs-4 col-sm-2 nav-about">About</li></a>
-    <a ui-sref="resume"><li class="col-xs-4 col-sm-2 nav-resume">Resume</li></a>
-    <a ui-sref="projects"><li class="col-xs-4 col-sm-2 nav-projects">Projects</li></a>
-    <a ui-sref="contact"><li class="col-xs-4 col-sm-2 nav-contact">Contact</li></a>
-    <a ui-sref="follow"><li class="col-xs-4 col-sm-2 nav-follow">Follow</li></a>
+    <a ui-sref="home"><li class="col-xs-4 col-sm-2 nav-home">home</li></a>
+    <a ui-sref="about"><li class="col-xs-4 col-sm-2 nav-about">about</li></a>
+    <a ui-sref="resume"><li class="col-xs-4 col-sm-2 nav-resume">resume</li></a>
+    <a ui-sref="projects"><li class="col-xs-4 col-sm-2 nav-projects">projects</li></a>
+    <a ui-sref="contact"><li class="col-xs-4 col-sm-2 nav-contact">contact</li></a>
+    <a ui-sref="follow"><li class="col-xs-4 col-sm-2 nav-follow">follow</li></a>
   </ul>
 </div>
 </nav>
@@ -50,6 +51,18 @@
   <main>
     <ui-view></ui-view>
   </main>
+
+  <footer class='text-center'>
+    <ul>
+      <li><a class='home' ui-sref="home">Home</a></li>
+      <li><a class='about' ui-sref="about">About</a></li>
+      <li><a class='resume' ui-sref="resume">Resume</a></li>
+      <li><a class='projects' ui-sref="projects">Projects</a></li>
+      <li><a class='contact' ui-sref="contact">Contact</a></li>
+      <li><a class='follow' ui-sref="follow">Follow</a></li>
+    </ul>
+    <p class='text-center'>J Lincoln Dennis 2016</p>
+  </footer>
 
 </div>
 </body>

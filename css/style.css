@@ -1,8 +1,8 @@
-ul {
+nav ul {
   list-style: none;
   padding: 0; }
 
-li {
+nav li {
   height: 80px;
   text-align: center;
   color: #f2f2f2;
@@ -103,23 +103,40 @@ main {
 .container {
   height: 1000px; }
 
+footer {
+  background: white;
+  margin-top: 50px;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+footer ul {
+  list-style: none;
+  margin-bottom: 25px;
+  padding-left: 0px; }
+
+footer li {
+  display: inline;
+  margin: 20px; }
+
 * {
   font-family: 'Raleway', sans-serif; }
 
-.home h1 {
+.home h1, a.home {
   color: #f17105; }
 
-.about h1 {
+.about h1, a.about {
   color: #d11149; }
 
-.resume h1 {
+.resume h1, a.resume {
   color: #9010e2; }
 
-.projects h1 {
+.projects h1, a.projects {
   color: #1a8fe3; }
 
-.contact h1 {
+.contact h1, a.contact {
   color: #2ECC71; }
 
-.follow h1 {
+.follow h1, a.follow {
   color: #e6c229; }
