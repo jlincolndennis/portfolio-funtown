@@ -1,0 +1,41 @@
+a.resume{
+  color: #9010e2;
+}
+
+.resume {
+  section {
+    margin-bottom: 50px;
+  }
+
+  h3 {
+    color: black;
+    margin-bottom: 5px;
+  }
+  ul {
+    padding-left: 0px;
+  }
+
+  li {
+    list-style: none;
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+  }
+  h1, h2, h3 a {
+    color: #9010e2;
+}
+  h2 small a {
+    color: rgb(102, 102, 102);
+
+  }
+
+  .tech-notes {
+    color: rgb(102, 102, 102);
+    font-style: italic;
+    margin-bottom: 0px;
+  }
+  p {
+    color: rgb(102, 102, 102);
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+}

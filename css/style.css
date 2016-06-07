@@ -100,9 +100,6 @@ main {
   margin-right: -15px;
   margin-left: -15px; }
 
-.container {
-  height: 1000px; }
-
 footer {
   background: white;
   margin-top: 50px;
@@ -129,9 +126,6 @@ footer li {
 .about h1, a.about {
   color: #d11149; }
 
-.resume h1, a.resume {
-  color: #9010e2; }
-
 .projects h1, a.projects {
   color: #1a8fe3; }
 
@@ -140,3 +134,37 @@ footer li {
 
 .follow h1, a.follow {
   color: #e6c229; }
+
+a.resume {
+  color: #9010e2; }
+
+.resume section {
+  margin-bottom: 50px; }
+
+.resume h3 {
+  color: black;
+  margin-bottom: 5px; }
+
+.resume ul {
+  padding-left: 0px; }
+
+.resume li {
+  list-style: none;
+  color: #666666;
+  font-size: 20px; }
+
+.resume h1, .resume h2, .resume h3 a {
+  color: #9010e2; }
+
+.resume h2 small a {
+  color: #666666; }
+
+.resume .tech-notes {
+  color: #666666;
+  font-style: italic;
+  margin-bottom: 0px; }
+
+.resume p {
+  color: #666666;
+  font-size: 20px;
+  margin-bottom: 40px; }
