@@ -46,13 +46,13 @@ nav h1, h4 {
   background: white;
   font-weight: bold; }
 
-.nav-follow {
+.nav-contact {
   background-color: #e6c229;
   font-size: 1.3em;
   padding-top: 50px;
   transition: background-color 0.5s ease; }
 
-.nav-follow:hover {
+.nav-contact:hover {
   color: #e6c229;
   background: white;
   font-weight: bold; }
@@ -79,13 +79,13 @@ nav h1, h4 {
   background: white;
   font-weight: bold; }
 
-.nav-contact {
+.nav-writing {
   background-color: #2ECC71;
   font-size: 1.3em;
   padding-top: 50px;
   transition: background-color 0.5s ease; }
 
-.nav-contact:hover {
+.nav-writing:hover {
   color: #2ECC71;
   background: white;
   font-weight: bold; }
@@ -129,10 +129,10 @@ footer li {
 .projects h1, a.projects {
   color: #1a8fe3; }
 
-.contact h1, a.contact {
+.writing h1, a.writing {
   color: #2ECC71; }
 
-.follow h1, a.follow {
+.contact h1, a.contact {
   color: #e6c229; }
 
 a.resume {

@@ -31,13 +31,13 @@
           templateUrl: "/app/partials/projects.html",
           url: '/projects'
         })
+        .state('writing', {
+          templateUrl: "/app/partials/writing.html",
+          url: '/writing'
+        })
         .state('contact', {
           templateUrl: "/app/partials/contact.html",
           url: '/contact'
-        })
-        .state('follow', {
-          templateUrl: "/app/partials/follow.html",
-          url: '/follow'
         })
     }
 
