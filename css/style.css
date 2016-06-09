@@ -33,7 +33,7 @@ nav ul {
   padding: 0; }
 
 nav li {
-  height: 90px;
+  height: 50px;
   text-align: center;
   color: #f2f2f2;
   padding: 0; }
@@ -55,24 +55,10 @@ nav h4 {
 .byline {
   font-style: italic; }
 
-.nav-buttons {
-  padding: 0px; }
-
-.nav-resume {
-  background-color: #9010e2;
-  font-size: 1.3em;
-  padding-top: 59px;
-  transition: background-color 0.5s ease; }
-
-.nav-resume:hover {
-  color: #9010e2;
-  background: white;
-  font-weight: bold; }
-
 .nav-home {
-  background-color: #f17105;
+  background: #f17105;
   font-size: 1.3em;
-  padding-top: 59px;
+  padding-top: 15px;
   transition: background-color 0.5s ease; }
 
 .nav-home:hover {
@@ -80,49 +66,55 @@ nav h4 {
   background: white;
   font-weight: bold; }
 
-.nav-contact {
-  background-color: #e6c229;
+.nav-projects {
+  background: #d11149;
   font-size: 1.3em;
-  padding-top: 59px;
+  padding-top: 15px;
   transition: background-color 0.5s ease; }
 
-.nav-contact:hover {
-  color: #e6c229;
-  background: white;
-  font-weight: bold; }
-
-.nav-about {
-  background-color: #d11149;
-  font-size: 1.3em;
-  padding-top: 59px;
-  transition: background-color 0.5s ease; }
-
-.nav-about:hover {
+.nav-projects:hover {
   color: #d11149;
   background: white;
   font-weight: bold; }
 
-.nav-projects {
-  background-color: #1a8fe3;
+.nav-resume {
+  background: #9010e2;
   font-size: 1.3em;
-  padding-top: 59px;
+  padding-top: 15px;
   transition: background-color 0.5s ease; }
 
-.nav-projects:hover {
-  color: #1a8fe3;
+.nav-resume:hover {
+  color: #9010e2;
   background: white;
   font-weight: bold; }
 
 .nav-writing {
-  background-color: #2ECC71;
+  background: #1a8fe3;
   font-size: 1.3em;
-  padding-top: 59px;
+  padding-top: 15px;
   transition: background-color 0.5s ease; }
 
 .nav-writing:hover {
+  color: #1a8fe3;
+  background: white;
+  font-weight: bold; }
+
+.nav-contact {
+  background: #2ECC71;
+  font-size: 1.3em;
+  padding-top: 15px;
+  transition: background-color 0.5s ease; }
+
+.nav-contact:hover {
   color: #2ECC71;
   background: white;
   font-weight: bold; }
+
+@media (max-width: 430px) {
+  nav {
+    font-size: .8em; }
+  .nav-projects, .nav-home, .nav-about, .nav-resume, .nav-writing, .nav-contact {
+    padding: 15px 0px 0px 0px; } }
 
 .contact li {
   margin-bottom: 7px; }
@@ -133,6 +125,15 @@ nav h4 {
 .contact li a:hover {
   font-weight: bold;
   color: #e6c229; }
+
+.go-read a {
+  color: #2ECC71; }
+
+.writing-sample a:hover {
+  color: #2ECC71; }
+
+.writing-sample a {
+  color: black; }
 
 * {
   font-family: 'Raleway', sans-serif; }

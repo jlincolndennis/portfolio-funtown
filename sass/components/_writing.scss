@@ -1,0 +1,13 @@
+@import 'variables';
+
+.go-read a{
+  color: $green
+}
+
+.writing-sample a:hover {
+  color: $green
+
+}
+.writing-sample a {
+  color: black;
+}
