@@ -104,6 +104,9 @@ main {
   margin-right: -15px;
   margin-left: -15px; }
 
+li a, li a:hover {
+  color: #323232; }
+
 footer {
   background: white;
   margin-top: 50px;
