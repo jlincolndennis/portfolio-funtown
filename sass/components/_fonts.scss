@@ -1,25 +1,25 @@
+@import 'variables';
+
 * {
   font-family: 'Raleway', sans-serif;
 }
 
 .home h1, a.home{
-  color: #f17105;
+  color: $orange;
 }
 
 .about h1, a.about{
-  color: #d11149;
+  color: $red;
 }
 
-
-
 .projects h1, a.projects {
-  color: #1a8fe3;
+  color: $blue;
 }
 
 .writing h1, a.writing  {
-  color: #2ECC71;
+  color: $green;
 }
 
 .contact h1, a.contact {
-  color: #e6c229;
+  color: $yellow;
 }

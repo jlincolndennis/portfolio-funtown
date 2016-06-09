@@ -1,3 +1,33 @@
+body {
+  background: #323232; }
+
+main {
+  background-color: white;
+  margin-top: 50px;
+  padding: 50px;
+  margin-right: -15px;
+  margin-left: -15px; }
+
+footer {
+  background: white;
+  margin-top: 50px;
+  margin-right: -15px;
+  margin-left: -15px;
+  padding-top: 25px;
+  padding-bottom: 25px; }
+
+footer ul {
+  list-style: none;
+  margin-bottom: 25px;
+  padding-left: 0px; }
+
+footer li {
+  display: inline;
+  margin: 20px; }
+
+p, li {
+  font-size: 16px; }
+
 nav ul {
   list-style: none;
   padding: 0; }
@@ -94,38 +124,15 @@ nav h4 {
   background: white;
   font-weight: bold; }
 
-body {
-  background: #323232; }
+.contact li {
+  margin-bottom: 7px; }
 
-main {
-  background-color: white;
-  margin-top: 50px;
-  padding: 50px;
-  margin-right: -15px;
-  margin-left: -15px; }
-
-li a, li a:hover {
+.contact li a {
   color: #323232; }
 
-footer {
-  background: white;
-  margin-top: 50px;
-  margin-right: -15px;
-  margin-left: -15px;
-  padding-top: 25px;
-  padding-bottom: 25px; }
-
-footer ul {
-  list-style: none;
-  margin-bottom: 25px;
-  padding-left: 0px; }
-
-footer li {
-  display: inline;
-  margin: 20px; }
-
-p, li {
-  font-size: 16px; }
+.contact li a:hover {
+  font-weight: bold;
+  color: #e6c229; }
 
 * {
   font-family: 'Raleway', sans-serif; }

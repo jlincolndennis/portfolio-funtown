@@ -1,4 +1,4 @@
-$black: rgb(50, 50, 50);
+@import 'variables';
 
 body {
   background: $black;
@@ -17,9 +17,6 @@ main {
   // height: 1000px;
 }
 
-li a, li a:hover {
-  color: $black
-}
 
 footer {
   background: white;

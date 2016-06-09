@@ -1,3 +1,5 @@
+@import 'variables';
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -24,8 +26,8 @@ nav h4 {
 .masthead {
   // height: 80px;
   padding: 0px;
-  color: rgb(242, 242, 242);;
-  background: rgb(50, 50, 50);
+  color: rgb(242, 242, 242);
+  background: $black;
 }
 
 .byline {
@@ -37,79 +39,79 @@ nav h4 {
 }
 
 .nav-resume {
-  background-color: #9010e2;
+  background-color: $purple;
   font-size: 1.3em;
   padding-top: 59px;
   transition: background-color 0.5s ease;
 }
 
 .nav-resume:hover {
-  color: #9010e2;
+  color: $purple;
   background: white;
   font-weight: bold;
 }
 
 .nav-home {
-  background-color:#f17105;
+  background-color:$orange;
   font-size: 1.3em;
   padding-top: 59px;
   transition: background-color 0.5s ease;
 }
 
 .nav-home:hover {
-  color: #f17105;
+  color: $orange;
   background: white;
   font-weight: bold;
 }
 
 .nav-contact {
-  background-color: #e6c229;
+  background-color: $yellow;
   font-size: 1.3em;
   padding-top: 59px;
   transition: background-color 0.5s ease;
 }
 
 .nav-contact:hover {
-  color: #e6c229;
+  color: $yellow;
   background: white;
   font-weight: bold;
 }
 
 .nav-about {
-  background-color: #d11149;
+  background-color: $red;
   font-size: 1.3em;
   padding-top: 59px;
   transition: background-color 0.5s ease;
 }
 
 .nav-about:hover {
-  color: #d11149;
+  color: $red;
   background: white;
   font-weight: bold;
 }
 
 .nav-projects {
-  background-color: #1a8fe3;
+  background-color: $blue;
   font-size: 1.3em;
   padding-top: 59px;
   transition: background-color 0.5s ease;
 }
 
 .nav-projects:hover {
-  color: #1a8fe3;
+  color: $blue;
   background: white;
   font-weight: bold;
 }
 
 .nav-writing {
-  background-color: #2ECC71;
+  background-color: $green;
   font-size: 1.3em;
   padding-top: 59px;
   transition: background-color 0.5s ease;
 }
 
 .nav-writing:hover {
-  color: #2ECC71;
+  color: $green;
   background: white;
   font-weight: bold;
 }
