@@ -3,6 +3,8 @@
 nav ul {
   list-style: none;
   padding: 0;
+  box-shadow: 1px 1px 2px rgb(25, 25, 25);
+
 }
 
 nav li {
@@ -14,28 +16,36 @@ nav li {
 }
 nav h1 {
   margin-top: 10px;
-  font-size: 48px;
+  // font-size: 48px;
+  font-size: 5em;
   text-align: center;
+  text-shadow: 1px 1px 2px rgb(25, 25, 25);
+
 
 }
 nav h4 {
   margin-top: -10px;
   text-align: center;
+  text-shadow: 1px 1px 2px rgb(25, 25, 25);
+
 }
 
 .masthead {
-  // height: 80px;
   padding: 0px;
   color: rgb(242, 242, 242);
-  background: $black;
+  // background: $black;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .byline {
+  font-size: 1.5em;
   font-style: italic;
+  margin-bottom: 0px
 }
 
 .nav-home {
-  background: #f17105;
+  background: $orange;
   font-size: 1.3em;
   padding-top: 15px;
   transition: background-color 0.5s ease;
@@ -91,6 +101,7 @@ nav h4 {
   font-size: 1.3em;
   padding-top: 15px;
   transition: background-color 0.5s ease;
+  border-right: 1px solid rgb(25, 25, 25);
 }
 
 .nav-contact:hover {

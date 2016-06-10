@@ -2,6 +2,9 @@
 
 
 .contact {
+  h1, a.contact {
+    color: $green;
+  }
   li {
     margin-bottom: 7px;
   }
@@ -13,6 +16,6 @@
 
   li a:hover {
     font-weight: bold;
-    color: $yellow;
+    color: $green;
   }
 }
