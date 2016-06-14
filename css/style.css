@@ -15,7 +15,8 @@ main {
 
 .headshot-headline {
   font-style: italic;
-  font-size: .8em; }
+  font-size: .8em;
+  margin-bottom: 50px; }
 
 .bio a {
   color: #f17105; }
