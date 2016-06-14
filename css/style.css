@@ -130,51 +130,19 @@ nav h4 {
   .nav-projects, .nav-home, .nav-about, .nav-resume, .nav-writing, .nav-contact {
     padding: 15px 0px 0px 0px; } }
 
-.contact h1, .contact a.contact {
-  color: #2ECC71; }
+.projects article {
+  margin-bottom: 80px; }
 
-.contact li {
-  margin-bottom: 7px; }
+.screenshot {
+  padding-top: 30px; }
 
-.contact li a {
-  color: #323232; }
+.project-name {
+  margin-bottom: 5px; }
 
-.contact li a:hover {
-  font-weight: bold;
-  color: #2ECC71; }
-
-.writing h1, a.writing {
-  color: #1a8fe3; }
-
-.go-read a {
-  color: #1a8fe3; }
-
-.writing div article {
-  margin-bottom: 60px; }
-
-.writing-sample a:hover {
-  color: #1a8fe3; }
-
-.writing-sample a {
-  color: black; }
-
-blockquote {
-  font-size: 16px; }
-
-* {
-  font-family: 'Raleway', sans-serif; }
-
-.home h1, a.home {
-  color: #f17105; }
-
-.projects h1, a.projects {
-  color: #d11149; }
-
-.writing h1, a.writing {
-  color: #1a8fe3; }
-
-.contact h1, a.contact {
-  color: #2ECC71; }
+.project-links {
+  margin-top: 0px; }
+  .project-links small a {
+    color: #d11149; }
 
 a.resume {
   color: #9010e2; }
@@ -185,6 +153,9 @@ a.resume {
 .resume h3 {
   color: black;
   margin-bottom: 5px; }
+
+.resume .project-links {
+  margin-top: 0px; }
 
 .resume ul {
   padding-left: 0px; }
@@ -209,3 +180,49 @@ a.resume {
   color: #666666;
   font-size: 20px;
   margin-bottom: 40px; }
+
+.writing h1, a.writing {
+  color: #1a8fe3; }
+
+.go-read a {
+  color: #1a8fe3; }
+
+.writing div article {
+  margin-bottom: 60px; }
+
+.writing-sample a:hover {
+  color: #1a8fe3; }
+
+.writing-sample a {
+  color: black; }
+
+blockquote {
+  font-size: 16px; }
+
+.contact h1, .contact a.contact {
+  color: #2ECC71; }
+
+.contact li {
+  margin-bottom: 7px; }
+
+.contact li a {
+  color: #323232; }
+
+.contact li a:hover {
+  font-weight: bold;
+  color: #2ECC71; }
+
+* {
+  font-family: 'Raleway', sans-serif; }
+
+.home h1, a.home {
+  color: #f17105; }
+
+.projects h1, a.projects {
+  color: #d11149; }
+
+.writing h1, a.writing {
+  color: #1a8fe3; }
+
+.contact h1, a.contact {
+  color: #2ECC71; }
