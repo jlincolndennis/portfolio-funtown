@@ -144,6 +144,9 @@ nav h4 {
   .project-links small a {
     color: #d11149; }
 
+.tech-notes {
+  font-style: italic; }
+
 a.resume {
   color: #9010e2; }
 
