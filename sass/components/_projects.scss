@@ -4,7 +4,7 @@
   }
 }
 
-.screenshot {
+.screenshot-wrapper {
   padding-top: 30px;
 }
 
@@ -21,4 +21,18 @@
 }
 .tech-notes {
   font-style: italic;
+}
+
+.embiggen {
+  font-size: .9em;
+
+  a {
+    color: $red;
+  }
+}
+
+img.screenshot {
+  padding: 3px;
+  border-radius: 3px;
+  border: 1px solid gray;
 }

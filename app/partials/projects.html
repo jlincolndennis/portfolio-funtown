@@ -1,7 +1,12 @@
 <div class='projects'>
   <h1>Web Development Projects</h1>
   <article class="row">
-    <div class="col-md-6">
+    <div class="screenshot-wrapper col-md-4 col-md-push-6">
+      <a href="javascript:void(0);" data-toggle="modal" data-target="#tuneUpModal"><img class="img-responsive screenshot" src="http://i.imgur.com/xfbOoET.png" alt="tuneUp"/></a>
+      <p class="text-center embiggen"><a href="javascript:void(0);" data-toggle="modal" data-target="#tuneUpModal">Click To Embiggen</a></p>
+    </div>
+
+    <div class="col-md-6 col-md-pull-4">
       <h3 class="project-name">tuneUp</h3>
       <h3 class="project-links"><small><a href="https://tuneupjs.herokuapp.com/" target="_blank">visit</a> | <a href="https://github.com/jlincolndennis/tuneup" target="_blank">codebase</a></small></h3>
       <p class='tech-notes'>Notable Tech: AngularJS, SQL, JSON Web Tokens</p>
@@ -11,14 +16,38 @@
 
       <p></p>
     </div>
-  <div class="screenshot col-md-4">
-    <img class="img-responsive" src="http://img.wonderhowto.com/img/72/44/63488496755639/0/take-screenshots-and-crop-them-windows-8.w654.jpg" alt="" />
-  </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="tuneUpModal" tabindex="-1" role="dialog" aria-labelledby="tuneUpModal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 id="tuneUpModal">tuneUp</h4>
+          </div>
+          <div class="modal-body text-center">
+            <a href="http://www.denverilliterati.com/" target="_blank">
+            <img class="img-responsive" src="http://i.imgur.com/xfbOoET.png" alt="The Illiterati of Denver"/>
+            </a>
+                <h3 class="project-links"><small>
+                  <a href="https://tuneupjs.herokuapp.com/" target="_blank">visit</a> |
+                  <a href="https://github.com/jlincolndennis/tuneup" target="_blank">codebase</a> |
+                  <a href="javascript:voild(0);" data-dismiss="modal"> close</a>
+                </small></h3>
+          </div>
+        </div>
+      </div>
+    </div>
 
 </article>
 
 <article class="row">
-  <div class="col-md-6">
+  <div class="screenshot-wrapper col-md-4 col-md-push-6">
+    <a href="javascript:void(0);" data-toggle="modal" data-target="#bookClubModal"><img class="img-responsive screenshot" src="http://i.imgur.com/I64sLw7.png" alt="The Illiterati of Denver"/></a>
+    <p class="text-center embiggen"><a href="javascript:void(0);" data-toggle="modal" data-target="#bookClubModal">Click To Embiggen</a></p>
+  </div>
+
+  <div class="col-md-6 col-md-pull-4">
     <h3 class="project-name">The Illiterati of Denver</h3>
     <h3 class="project-links"><small><a href="http://www.denverilliterati.com/" target="_blank">visit</a> | <a href="https://github.com/jlincolndennis/denverilliterati" target="_blank">codebase</a></small></h3>
     <p class='tech-notes'>Notable Tech: AngularJS, Javascript, CSS</p>
@@ -27,14 +56,41 @@
     <p>This project has the distinction of being the first site I have developed and deployed to a real, live user-base with the somewhat unreasonable expectation that the site actually work consistently and intuitively. In addition to being the furthest I had pushed myself in terms of design at that point, it has also been a wonderful learning experience in receiving actual feedback from real users.</p>
 
   </div>
-<div class="screenshot col-md-4">
-  <img class="img-responsive" src="http://img.wonderhowto.com/img/72/44/63488496755639/0/take-screenshots-and-crop-them-windows-8.w654.jpg" alt="" />
-</div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="bookClubModal" tabindex="-1" role="dialog" aria-labelledby="bookClubModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 id="bookClubModalLabel">The Illiterati of Denver</h4>
+        </div>
+        <div class="modal-body text-center">
+          <a href="http://www.denverilliterati.com/" target="_blank">
+          <img class="img-responsive" src="http://i.imgur.com/I64sLw7.png" alt="The Illiterati of Denver"/>
+          </a>
+              <h3 class="project-links"><small>
+                <a href="http://www.denverilliterati.com/" target="_blank">visit</a> |
+                <a href="https://github.com/jlincolndennis/denverilliterati" target="_blank">codebase</a> |
+                <a href="javascript:voild(0);" data-dismiss="modal"> close</a>
+              </small></h3>
+        </div>
+      </div>
+    </div>
+  </div>
 
 </article>
 
 <article class="row">
-  <div class="col-md-6">
+  <div class="screenshot-wrapper col-md-4 col-md-push-6">
+    <a href="javascript:void(0);" data-toggle="modal" data-target="#whereaboutsModal">
+    <img class="img-responsive screenshot" src="http://i.imgur.com/GsglKxQ.png" alt="Whereabouts"/>
+    <p class="text-center embiggen"><a href="javascript:void(0);" data-toggle="modal" data-target="#whereaboutsModal">Click To Embiggen</a></p>
+    </a>
+  </div>
+
+  <div class="col-md-6 col-md-pull-4">
     <h3 class="project-name">WhereAbouts</h3>
     <h3 class="project-links"><small><a href="http://where-a-bouts.herokuapp.com/" target="_blank">visit</a> | <a href="https://github.com/blakeface/whereabouts" target="_blank">codebase</a></small></h3>
     <p class="tech-notes">Notable Tech: jQuery, Google Maps API, OAuth, SQL, Knex.js</p>
@@ -42,14 +98,39 @@
 
     <p>In addition to being the only app I know of where one can learn about a waterfall that steals souls, this project was as much as learning to develop in a team - particularly while utilizing the Agile workflow - as it was about building a full stack CRUD app. Over the course of development, I worked on my own and in pairs,  learned how to integrate my code into a larger code base, and how to work with and debug code I didn’t write.</p>
   </div>
-<div class="screenshot col-md-4">
-  <img class="img-responsive" src="http://img.wonderhowto.com/img/72/44/63488496755639/0/take-screenshots-and-crop-them-windows-8.w654.jpg" alt="" />
+
+
+<!-- Modal -->
+<div class="modal fade" id="whereaboutsModal" tabindex="-1" role="dialog" aria-labelledby="whereaboutsModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 id="whereaboutsModalLabel">Whereabouts</h4>
+      </div>
+      <div class="modal-body text-center">
+        <a href="http://jlincolndennis.github.io/marvel-history.github.io/index.html" target="_blank">
+        <img class="img-responsive" src="http://i.imgur.com/GsglKxQ.png" alt="Whereabouts"/>
+        </a>
+        <h3 class="project-links"><small>
+          <a href="http://where-a-bouts.herokuapp.com/" target="_blank">visit</a> |
+          <a href="https://github.com/blakeface/whereabouts" target="_blank">codebase</a> |
+          <a href="javascript:voild(0);" data-dismiss="modal">close</a>
+        </small></h3>
+      </div>
+    </div>
+  </div>
 </div>
 
 </article>
 
 <article class="row">
-  <div class="col-md-6">
+  <div class="screenshot-wrapper col-md-4 col-md-push-6">
+    <a href="javascript:void(0);" data-toggle="modal" data-target="#marvelModal"><img class="img-responsive screenshot" src="http://i.imgur.com/nIIhkt4.png" alt="This Week In Marvel History"/></a>
+    <p class="text-center embiggen"><a href="javascript:void(0);" data-toggle="modal" data-target="#marvelModal">Click To Embiggen</a></p>
+  </div>
+
+  <div class="col-md-6 col-md-pull-4">
     <h3 class="project-name">This Week in Marvel History</h3>
     <h3 class="project-links"><small><a href="http://jlincolndennis.github.io/marvel-history.github.io/index.html" target="_blank">visit</a> | <a href="https://github.com/jlincolndennis/marvel-history" target="_blank">codebase</a> | <a href="https://www.youtube.com/watch?v=g40vh1apCjs" target="_blank">tour</a> </small></h3>
     <p class="tech-notes">Notable Tech: jQuery, Marvel Comics API, HTML, CSS</p>
@@ -57,8 +138,29 @@
 
     <p>The one that started it all, this app was a frontend only project, mainly because frontend was all I knew when I did it. It was also my first experience interacting with APIs and my introduction to JSON objects. What I was able to accomplish with this somewhat limited toolset has also retroactively given me an even greater respect for Angular and other frontend frameworks. Using jQuery to append all those divs? Oh, you sweet summer child.</p>
   </div>
-<div class="screenshot col-md-4">
-  <img class="img-responsive" src="http://img.wonderhowto.com/img/72/44/63488496755639/0/take-screenshots-and-crop-them-windows-8.w654.jpg" alt="" />
+
+
+<!-- Modal -->
+<div class="modal fade" id="marvelModal" tabindex="-1" role="dialog" aria-labelledby="marvelModalLabel">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 id="marvelModalLabel">This Week In Marvel History</h4>
+      </div>
+      <div class="modal-body text-center">
+        <a href="http://jlincolndennis.github.io/marvel-history.github.io/index.html" target="_blank">
+        <img class="img-responsive" src="http://i.imgur.com/nIIhkt4.png" alt="This Week In Marvel History"/>
+        </a>
+            <h3 class="project-links"><small>
+              <a href="http://jlincolndennis.github.io/marvel-history.github.io/index.html" target="_blank">visit</a> |
+              <a href="https://github.com/jlincolndennis/marvel-history" target="_blank">codebase</a> |
+              <a href="https://www.youtube.com/watch?v=g40vh1apCjs" target="_blank">tour</a> |
+              <a href="javascript:voild(0);" data-dismiss="modal"> close</a>
+            </small></h3>
+      </div>
+    </div>
+  </div>
 </div>
 
 </article>
