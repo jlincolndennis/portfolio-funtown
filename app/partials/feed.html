@@ -1,0 +1,16 @@
+<div class="row feed">
+  <div class="col-md-10">
+    <h1>Most "Recent" Posts <small>via Medium</small></h1>
+
+    {{vm.err}}
+
+    <section >
+      <article ng-repeat="post in vm.feed" class="feed-post row">
+        <h3>{{post.title}} <small>{{post.date | date:'d MMMM yyyy'}}</small></h3>
+          <div class="col-md-8 post-tease" ng-bind-html="post.content"></div>
+
+      </article>
+    </section>
+
+  </div>
+</div>

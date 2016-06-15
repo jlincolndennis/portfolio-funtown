@@ -3,7 +3,7 @@
 
   const dependencies = [
     'ui.router',
-    'ngAnimate',
+    'ngSanitize',
   ]
 
   angular.module('app', dependencies)

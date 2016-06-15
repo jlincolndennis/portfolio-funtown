@@ -36,6 +36,17 @@ main {
   // height: 1000px;
 }
 
+.feed {
+  margin-top: 50px;
+}
+
+.post-tease p a img{
+  display: none;
+}
+
+.post-tease p a {
+  color: $orange;
+}
 
 footer {
   background: white;

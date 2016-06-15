@@ -21,6 +21,15 @@ main {
 .bio a {
   color: #f17105; }
 
+.feed {
+  margin-top: 50px; }
+
+.post-tease p a img {
+  display: none; }
+
+.post-tease p a {
+  color: #f17105; }
+
 footer {
   background: white;
   margin-top: 50px;
