@@ -7,20 +7,20 @@
     feedFactory.$inject = ['$http', '$log']
 
     function feedFactory($http, $log) {
-      let _feed = {}
-      let _error = {}
+      var _feed = {}
+      var _error = {}
 
       return {
         getFeed: getFeed
       }
 
       function getFeed() {
-        let url = "https://rss2json.com/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40jlincolndennis"
+        var url = "https://rss2json.com/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40jlincolndennis"
 
         return $http.get(url)
           .then(function (res) {
             if (res.data.status === 'ok') {
-              let fullFeed = res.data.items;
+              var fullFeed = res.data.items;
               _feed = [fullFeed[0], fullFeed[1], fullFeed[2]]
               _feed.forEach(function (item) {
                 item.date = Date.parse(item.pubDate)

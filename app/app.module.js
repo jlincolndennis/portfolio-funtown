@@ -1,7 +1,7 @@
 (function() {
   'use strict';
 
-  const dependencies = [
+  var dependencies = [
     'ui.router',
     'ngSanitize',
   ]

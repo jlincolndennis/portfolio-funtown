@@ -1,6 +1,10 @@
 {
   "hosting": {
     "public": "/",
+    "ignore": [
+      ".git",
+      ".gitignore"
+    ],
     "rewrites": [
       {
         "source": "**",
