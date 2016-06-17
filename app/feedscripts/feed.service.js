@@ -15,7 +15,7 @@
       }
 
       function getFeed() {
-        let url = "http://rss2json.com/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40jlincolndennis"
+        let url = "https://rss2json.com/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40jlincolndennis"
 
         return $http.get(url)
           .then(function (res) {

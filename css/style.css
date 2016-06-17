@@ -22,7 +22,11 @@ main {
   color: #f17105; }
 
 .feed {
-  margin-top: 50px; }
+  margin-top: 30px; }
+
+.feed-post {
+  margin-left: 15px;
+  margin-right: 15px; }
 
 .post-tease p a img {
   display: none; }
@@ -200,6 +204,9 @@ a.resume {
   color: #9010e2; }
 
 .resume h2 small a {
+  color: #666666; }
+
+.resume h1 small a {
   color: #666666; }
 
 .resume .tech-notes {

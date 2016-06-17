@@ -4,7 +4,7 @@
 
     {{vm.err}}
 
-    <section >
+    <section>
       <article ng-repeat="post in vm.feed" class="feed-post row">
         <h3>{{post.title}} <small>{{post.date | date:'d MMMM yyyy'}}</small></h3>
           <div class="col-md-8 post-tease" ng-bind-html="post.content"></div>
