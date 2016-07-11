@@ -154,6 +154,9 @@ nav h4 {
 .projects article {
   margin-bottom: 80px; }
 
+.projects p a {
+  color: #d11149; }
+
 .screenshot-wrapper {
   padding-top: 30px; }
 
