@@ -3,7 +3,6 @@
 
   var dependencies = [
     'ui.router',
-gaa
   ]
 
   angular.module('app', dependencies)
