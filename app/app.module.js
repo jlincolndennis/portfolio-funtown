@@ -3,7 +3,7 @@
 
   var dependencies = [
     'ui.router',
-    'ngSanitize',
+gaa
   ]
 
   angular.module('app', dependencies)
